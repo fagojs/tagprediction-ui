@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+.card_ul li {
+  list-style: none;
+}
+.card_ul {
+  max-width: 13.5rem;
+  width: 100%;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 0.2rem 0;
+  margin: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+ul .header {
+  color: rgb(14, 160, 245);
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+ul .desc {
+  height: 6rem;
+  line-height: 1rem;
+  padding: 0 0.6rem;
+  overflow: hidden;
+}
+
+ul .card_footer {
+  display: flex;
+  justify-content: space-around;
+  height: 4rem;
+  font-size: 1.1rem;
+}

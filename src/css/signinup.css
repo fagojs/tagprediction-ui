@@ -1,0 +1,42 @@
+.form_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(124, 165, 231, 0.7),
+    rgba(46, 103, 194, 0.8)
+  );
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.19);
+  padding: 2rem;
+}
+form {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  background-color: #eef1f6;
+}
+form label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.form_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.form_container h2 {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.842);
+}
+.form_container p {
+  font-size: 1.3rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.842);
+}
